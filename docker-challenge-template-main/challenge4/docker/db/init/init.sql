@@ -4,11 +4,11 @@ CREATE TABLE books (
     author VARCHAR(200) NOT NULL
 );
 
-INSERT INTO books (id, title, author) VALUES (1, 'The Road', 'Cormac McCarthy');
 
-INSERT INTO books (id, title, author) VALUES (2, 'Beloved', 'Toni Morrison');
+INSERT INTO books (id, title, author) VALUES (1, '1984', 'George Orwell');
 
-INSERT INTO books (id, title, author) VALUES (3, 'The Name of the Wind', 'Patrick Rothfuss');
+INSERT INTO books (id, title, author) VALUES (2, 'Pride and Prejudice', 'Jane Austen');
 
-INSERT INTO books (id, title, author) VALUES (4, 'Sapiens: A Brief History of Humankind', 'Yuval Noah Harari');
+INSERT INTO books (id, title, author) VALUES (3, 'To Kill a Mockingbird', 'Harper Lee');
 
+INSERT INTO books (id, title, author) VALUES (4, 'The Great Gatsby', 'F. Scott Fitzgerald');
